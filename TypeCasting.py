@@ -8,3 +8,5 @@ print("your name has " + new_num_car + " characters")
 # Type casting
 a =123
 print(type(a))
+b = str(a)
+print(type(b))
