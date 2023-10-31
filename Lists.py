@@ -19,3 +19,8 @@ print(fruits)
 fruits.extend(["Mango", "Pineapple", "Watermelon"])
 print(fruits)
 
+# Nested Lists
+place = ["Kashmir", "Himachal", "Assam", "Nagpur", "Lucknow", "Mumbai", "Lucknow"]
+nested_lists = [fruits, place]
+print(nested_lists)
+print(nested_lists[1][1])
