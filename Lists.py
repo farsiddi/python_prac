@@ -11,6 +11,9 @@ print(fruits[1])
 fruits[1] = "grapes"
 print(fruits)
 
+#   Adding
+fruits += ["Guava"]
+print(fruits)
 fruits.append("orange")
 print(fruits)
 
@@ -24,3 +27,4 @@ place = ["Kashmir", "Himachal", "Assam", "Nagpur", "Lucknow", "Mumbai", "Lucknow
 nested_lists = [fruits, place]
 print(nested_lists)
 print(nested_lists[1][1])
+

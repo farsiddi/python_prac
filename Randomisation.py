@@ -12,3 +12,7 @@ print(rand_float)
 # In range 0 to 5
 rand_float = rand_float * 5
 print(rand_float)
+
+places = ["Kashmir", "Himachal", "Assam", "Nagpur", "Lucknow", "Mumbai", "Lucknow"]
+place = random.choice(places)
+print(place)
