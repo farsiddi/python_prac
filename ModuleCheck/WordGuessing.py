@@ -1,27 +1,13 @@
 import random
-#
-# word_list = ["forest", "bottle", "sunlight", "computer"]
-# word = random.choice(word_list)
-# print(word)
 
+word_list = ["forest", "bottle", "sunlight", "computer"]
+word = random.choice(word_list)
+print(word)
 
-def encypt_func(txt, s):
-    result = ""
+letter = input("Guess a letter")
 
-    for i in range(len(txt)):
-        char = txt[i]
-
-
-        if (char.isupper()):
-            result += chr((ord(char) + s - 64) % 26 + 65)
-
-        else:
-            result += chr(abs(ord(char) + s - 96) % 26 + 97)
-    return result
-
-txt = "CEASER CIPHER EXAMPLE"
-s = 4
-
-print("Plain txt : " + txt)
-print("Shift pattern : " + str(s))
-print("Cipher: " + encypt_func(txt, s))
+for wd in word:
+    if wd == letter:
+        print("right")
+    else:
+        print("wrong")
