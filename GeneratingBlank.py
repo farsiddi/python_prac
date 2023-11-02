@@ -21,6 +21,10 @@ print(guess_list)
 # for i in word:
 #     display += "_"
 # print(display)
+# for position in range(len(word)):
+#     letter = word[position]
+#     if word == letter:
+#         display += letter
 
 i = 0
 for char in word:
