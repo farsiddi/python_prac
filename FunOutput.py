@@ -12,3 +12,7 @@ def upper(f_name, l_name):
 
 # upper(first_name, last_name)
 print(upper(first_name, last_name))
+
+# Return vs print Return is used to exit a function and return a value || Print is used to display output to the
+# console Return returns a value that can be assigned to a variable or used in any expression	|| Print displays
+# output to the console but does not return the value
