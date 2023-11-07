@@ -21,6 +21,7 @@ class QuizGame:
 
     def next_ques(self):
         current_ques = self.ques_list[self.ques_num]
+        self.ques_num += 1
         user_ans = input(f"Q.{self.ques_num}: {current_ques.text} (True/False)")
         self.check_ans(user_ans, current_ques.answer)
 
@@ -41,3 +42,6 @@ quiz = QuizGame(question_bank)
 
 while quiz.ques_left():
     quiz.next_ques()
+
+print("You have completed the quiz")
+print(f"Your final score is: {quiz.score}/{quiz.ques_num}")
