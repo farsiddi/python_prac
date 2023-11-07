@@ -11,6 +11,7 @@ turtle_list = []
 y_axis = -20
 for no_turtle in range(0, 5):
     new_turtle = tut.Turtle(shape="turtle")
+    # new_turtle.speed("fast")
     new_turtle.color(turtle_color[no_turtle])
     new_turtle.penup()
     new_turtle.goto(-385, y_axis)
@@ -22,7 +23,8 @@ if usr_bet:
 
 while race_on:
     for turtle in turtle_list:
-        if turtle.xcor() > 200:
+        if turtle.xcor() > 360:
+            race_on = False
             winning_color = turtle.pencolor()
             if winning_color == usr_bet:
                 print(f"You have won the race. Your winning color turtle is: {turtle.penup()}")
