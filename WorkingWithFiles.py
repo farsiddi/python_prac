@@ -17,5 +17,8 @@ with open("MyFile.txt", mode="a") as file2:  # by default the mode is read -w fo
     file2.write("I live in India")
 
 # If open a file in write mode then it will create that file
-with open("New_File.txt",mode="w") as file3:
+with open("New_File.txt", mode="w") as file3:
     file3.write("This is lenovo")
+
+    # Absolute path starts from the root folder
+    
