@@ -17,10 +17,12 @@ while len(guess_state) < 29:
     user_guess = tut.textinput(f"{len(guess_state)}/29 state guessed",
                                'What,s the another state name? or type "Exit" to exit the game').title()
     if user_guess == "Exit":  # Ends the game
-        missing_state = []
-        for state in state_name:
-            if state not in guess_state:
-                missing_state.append(state)
+        missing_state = [state for state in state_name if state not in guess_state]
+        # Above line is same as working below commented lines
+        # missing_state = []
+        # for state in state_name:
+        #     if state not in guess_state:
+        #         missing_state.append(state)
         new_data = pandas.DataFrame(missing_state)
         new_data.to_csv("MissingState.csv")
         # print(missing_state)
