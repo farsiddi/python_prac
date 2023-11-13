@@ -2,7 +2,6 @@ import turtle as tut
 
 sam = tut.Turtle()
 
-
 def move_fwd():
     sam.forward(30)
 

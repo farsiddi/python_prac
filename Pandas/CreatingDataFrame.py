@@ -9,3 +9,4 @@ data_df = pandas.DataFrame(data_dict)
 print(data_df)
 # Creating a csv out of it
 data_df.to_csv("students_details.csv")
+
