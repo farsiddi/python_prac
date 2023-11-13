@@ -10,6 +10,7 @@ grey_squirrels = data[data["Primary Fur Color"] == "Gray"]
 # print(grey_squirrels)
 red_squirrel = data[data["Primary Fur Color"] == "Cinnamon"]
 black_squirrel = data[data["Primary Fur Color"] == "Black"]
+# print(red_squirrel)
 print(len(grey_squirrels))
 print(len(red_squirrel))
 print(len(black_squirrel))

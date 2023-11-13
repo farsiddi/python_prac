@@ -15,6 +15,7 @@ new_name = [letter for letter in name]
 # print(new_name)
 new_range = [num * 2 for num in range(1, 5)]
 print(new_range)
+print(new_range)
 
 # Conditional list Comprehension
 # new_list = [expression for item in old_list if condition]   => only if the condition is true

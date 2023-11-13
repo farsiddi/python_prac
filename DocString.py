@@ -1,5 +1,5 @@
 def sum_of_values(a, b):
-    """It takes to number and returns the sum of it."""
+    """Addition : It takes to number and returns the sum of it."""
     return a + b
 
 

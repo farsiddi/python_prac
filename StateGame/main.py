@@ -37,10 +37,10 @@ while len(guess_state) < 29:
         sam.write(user_guess)
         # sam.write(state_data.state.item())
 
-Getting the x and y coordina
-te
-def get_mouse_click_coordinate(x, y):
-    print(x, y)
-tut.onscreenclick(get_mouse_click_coordinate)
+# Getting the x and y coordinates  => Used to get the x and y coordinate of mouse click
+# te
+# def get_mouse_click_coordinate(x, y):
+#     print(x, y)
+# tut.onscreenclick(get_mouse_click_coordinate)
 
 # tut.mainloop()
