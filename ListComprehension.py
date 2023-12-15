@@ -23,3 +23,11 @@ names = ["Alex", "Beth", "Sam", "Dave", "Michael", "Matt", "Warner"]
 name_having_4_letters = [name for name in names if len(name) <= 4]
 print(name_having_4_letters)
 print([name.upper() for name in names if len(name) > 4])
+
+
+
+
+
+
+
+
